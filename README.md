@@ -23,7 +23,8 @@ To reproduce this analyis, the following preconditions must be met:
 
 Once the "run_analysis.R" script has been run, the correlated and summarized dataset will be contained in the tidy data.frame
 
-References
+References:
+
 See the original UCI HAR study website for full details on the source dataset:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
