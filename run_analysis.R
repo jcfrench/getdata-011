@@ -2,6 +2,9 @@
 ###Author: JCFrench
 ###Date: 02/17/2015
 
+###This run_analysis.R script answers the Coursera/John Hopkins "GetData-011"
+###class project.
+
 ###run_analysis.R reads the UCI HAR Dataset files, combines them into correlated
 ###datasets, and then summarizes all mean and standard deviation features for
 ###each subject and activity.
