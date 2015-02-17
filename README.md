@@ -21,7 +21,7 @@ To reproduce this analyis, the following preconditions must be met:
 1) dplyr package must be installed
 2) The UCI HAR Dataset must be unzipped into the R working directory [the function dir() must contain the folder "UCI HAR Dataset"]
 
-
+Once the "run_analysis.R" script has been run, the correlated and summarized dataset will be contained in the tidy data.frame
 
 References
 See the original UCI HAR study website for full details on the source dataset:
