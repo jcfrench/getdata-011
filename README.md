@@ -1,7 +1,13 @@
-# getdata-011
-Getting and Cleaning Data Section 011 Class Project
-Author: JCFrench
-Date: 02/17/2015
+---
+title: "Readme"
+author: "JCFrench"
+date: "Tuesday, February 17, 2015"
+output: html_document
+Course: getdata-011
+CourseName: Getting and Cleaning Data
+----
+
+Course Project
 
 The course project for the 011 section of Getting and Cleaning Data correlates and summarizes the data provided by the University of California Irvine's (UCI) Human Activity Recognition (HAR) Database. 
 
