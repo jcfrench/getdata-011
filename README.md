@@ -2,7 +2,6 @@
 title: "Readme"
 author: "JCFrench"
 date: "Tuesday, February 17, 2015"
-output: html_document
 Course: getdata-011
 CourseName: Getting and Cleaning Data
 ----
