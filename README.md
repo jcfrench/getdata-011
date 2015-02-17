@@ -12,9 +12,13 @@ Course Project
 The course project for the 011 section of Getting and Cleaning Data correlates and summarizes the data provided by the University of California Irvine's (UCI) Human Activity Recognition (HAR) Database. 
 
 The 4 components of this analysis are as follows:
+
 1) Readme.md - Summary of Project, components, and steps needed to reproduce work
+
 2) CodeBook.md - Summary of the dataset provided via the "getdata-011-jcfrench.txt" file
+
 3) run_analysis.R - R Script which may be used to reproduce the dataset provided in the "getdata-011-jcfrench.txt" file
+
 4) getdata-011-jcfrench.txt - The resulting tidy data set which may be accessed via this url: https://s3.amazonaws.com/coursera-uploads/user-a5f2b30348f5f179fa7a3ebe/973498/asst-3/82e71380b6e711e4b0b077200b244db8.txt
 
 To reproduce this analyis, the following preconditions must be met:
