@@ -22,7 +22,9 @@ The 4 components of this analysis are as follows:
 4) getdata-011-jcfrench.txt - The resulting tidy data set which may be accessed via this url: https://s3.amazonaws.com/coursera-uploads/user-a5f2b30348f5f179fa7a3ebe/973498/asst-3/82e71380b6e711e4b0b077200b244db8.txt
 
 To reproduce this analyis, the following preconditions must be met:
+
 1) dplyr package must be installed
+
 2) The UCI HAR Dataset must be unzipped into the R working directory [the function dir() must contain the folder "UCI HAR Dataset"]
 
 Once the "run_analysis.R" script has been run, the correlated and summarized dataset will be contained in the tidy data.frame
