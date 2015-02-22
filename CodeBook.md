@@ -10,7 +10,8 @@ Each row of the tidy data set is uniquely indexed by the combination of subject 
 
 UCI provided accelermoer and gyroscope measurements acquired by asking test subjects to perform common physical activity while wearing samsumg smart phones. The resulting variable features include raw and filtered accelerometer and gyroscope signals. These signals were decomposed and processed.
 
-Out of 561 features provided by the Samsung dataset, the 79 features which represented mean or standard deviation estimates were selected for summation by averaging. Note that for the purposes of this submission, that includes Mean Frequency features.
+Out of 561 features provided by the Samsung dataset, the 79 features which represented mean or standard deviation estimates were selected for summation by averaging. Note that for the purposes of this submission, that includes mean frequency features. Angle calculations based on mean values, such as angle.tBodyAccJerkMean..gravityMean., were not included in the tidy data set.
+
 All feature variables in the tidy data set have been summarized by averaging the mean and standard deviations vector from the existing UCI HAR feature Datasets. 
 
 The Samsung Dataset was provided with an existing split between the training and test observations. These two datasets were recombined by concatenating the two sets of records together. The combination of training and test data sets contain a total of 10299 observations split over 30 test subjects and 6 named activities. Since each test subject executed each of the 6 activities, the resulting wide form tidy data set contains 180 records. Each feature in the tidy data set represent the average of roughly 60 observations from the test and training data sets. 
