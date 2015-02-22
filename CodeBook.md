@@ -13,18 +13,26 @@ UCI provided variable features include raw and filtered accelerometer and gyrosc
 Out of 561 features provided by the UCI dataset, the 79 features which represented mean or standard deviation estimates were selected for summation. Note that for the purposes of this submission, that includes Mean Frequency features.
 All features variables in the tidy data set have been summarized by averaging the mean and standard deviations vector from the existing UCI HAR feature Datasets. 
 
-The combination of training and test data sets contain a total of 10299 observations split over 30 test subjects and 6 named activities. Since each test subject executed each of the 6 activities, the resulting tidy data set contains 180 records. Each record in the tidy data set represent the average of roughly 60 observations from the test and training data sets. 
+The UCI Dataset was provided with an existing split between the training and test observations. These two datasets were recombined by concatenating the two sets of records together. The combination of training and test data sets contain a total of 10299 observations split over 30 test subjects and 6 named activities. Since each test subject executed each of the 6 activities, the resulting wide form tidy data set contains 180 records. Each feature in the tidy data set represent the average of roughly 60 observations from the test and training data sets. 
 
-One of the main uses of the UCI data is to develop predictive models to categorize a subject's activity based on the accelerometer and gyroscopic reading. Without know how the merged data set will be used, wide form seemed to best preserve the notion that the combined averaged features are attributes attached to specific test subject performing specific activities. Further adjustment into the a long tidy form was deemed unnessecary. (Note, Hadley Wickham's "Tidy Data" white paper supports justification for either form. http://vita.had.co.nz/papers/tidy-data.pdf)
+One of the main uses of the UCI data is to develop predictive models to categorize a subject's activity based on the accelerometer and gyroscopic reading. Without know how the merged data set will be used, wide form seemed to best preserve the notion that the combined averaged features are attributes attached to specific test subject performing specific activities. Further adjustment to the a long tidy form was deemed unnessecary. (Note, Hadley Wickham's "Tidy Data" white paper supports justification for either form. http://vita.had.co.nz/papers/tidy-data.pdf)
 
-
-Per the UCI HAR "ReadMe.txt" file, each feature is normalized and bounded within the range of [-1,1].
+Per the UCI HAR "ReadMe.txt" file:
+Subjects have been assigned numbers 1 through 30.
+Activity number have been replaced with the activity name tes to are represent the following 6 categories of outcomes:
+  LAYING
+  SITTING
+  STANDING
+  WALKING           
+  WALKING_DOWNSTAIRS
+  WALKING_UPSTAIRS
+Each quantitative feature ("tBodyAcc.mean...X" thru "fBodyBodyGyroJerkMag.meanFreq..") is the average of serveral feature observations. These features were initially normalized and bounded within the range of [-1,1] by the UCI study.
 
 Further details on each of the Features can be found in the UCI HAR Dataset 
 "features_info.txt"" file
 
-subject
-activity
+subject               
+activity               
 tBodyAcc.mean...X               
 tBodyAcc.mean...Y              
 tBodyAcc.mean...Z               
